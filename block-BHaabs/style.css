@@ -58,7 +58,8 @@ margin: 0px auto;
 
 /* Body */
  body{
-     line-height: 1.5;
+     line-height: 1.4;
+     background-color: black;
  }
 /* section */
 section{
@@ -67,10 +68,11 @@ section{
 }
 h1, h2{
     font-size: 60px;
-    margin: 50px 0px;
+    padding: 24px 0px;
     text-transform: capitalize;
     color: white;
     font-weight:500;
+    text-shadow: 6px 6px 6px black;
     font-family: 'Roboto Slab', serif;;
 }
 
