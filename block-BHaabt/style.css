@@ -1,0 +1,264 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/* custom styles */
+
+body{
+    font-family: 'Karla', sans-serif;
+    font-size: 16px;
+    line-height: 1.5;}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6{
+    font-family: 'DM Serif Display', serif;
+}    
+
+*,
+*::before,
+*::after{
+box-sizing: border-box;
+}
+
+/* General */
+.container{
+    max-width: 1200px;
+    margin: 0px auto;
+    padding: 16px 0;
+    
+}
+.flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+/* Header */
+
+
+.header h1{
+    color: #2D2640;
+    font-size: 40px;
+}
+.header nav a{
+    color: #88858C;
+    font-size: 20px;
+    font-weight: 600;
+    text-decoration: none;
+    margin-left: 24px;
+     text-transform: uppercase;
+}
+.header .active{
+    border: 1px solid #88858c;
+    padding: 12px;
+    border-radius: 5px;
+    margin-left: 36px;
+}
+/* Article-section */
+
+.article{
+    background-color: #2D2640;
+    margin-bottom: 150px;
+    
+}
+.article .flex{
+    align-items: flex-start;
+}
+
+
+.article-content{
+    width: 45%;
+   
+}
+.article-content hr{
+    width: 150px;
+   margin-left: 0px;
+   margin-bottom: 20px;
+   color: #88858c;
+}
+
+.article-content h2{
+    font-size: 60px;
+    color:white;
+    line-height: 1;
+    margin: 40px 0px;
+}
+.article-content p{
+    color:#CECECF;
+}
+
+.article-content a{
+    font-size: 18px;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 7px ;
+    border-radius: 5px;
+    display: inline-block;
+    border: 1px solid #88858c;
+    color: white;
+    margin-top: 30px;
+}
+
+.article{
+    height: 470px;
+    padding-top: 50px;
+   
+}
+.article .image{
+    width: 45%;
+}
+.article .image img{
+    width: 100%;
+}
+
+/* article02 */
+
+.article02{
+    background-color: white;
+    
+}
+.article02 .article-content h2{
+    color: black;}
+
+.article02 .article-content p{
+    color:#57575f;}
+
+.article02 .article-content a{
+    color:#57575f;}
+
+.article02 .flex{
+   align-items: center;}
+
+/* Final-section */
+
+.text{
+    width: 30%;  
+}
+.final-section hr{
+    width: 160px;
+   margin-left: 0px;
+   margin-bottom: 30px;}
+    
+
+h3{
+    font-size: 55px;
+    margin-bottom: 40px;
+}
+
+h4{
+    font-size: 20px;
+    font-weight: 900px;
+    margin: 10px 0px;
+}
+h5{
+    font-size: 55px;
+    line-height: 1;
+    color:white;
+}
+h6{
+    font-size: 28px;
+    margin-bottom: 0px;
+}
+
+.final-section{
+    line-height: 1;
+}
+
+.final-section .flex p{
+    color: #57575f;
+}
+.final-section .flex a{ 
+    font-size: 40px;
+    color:#57575f; 
+    margin-left: 15px;
+}
+.final-section .process{
+    padding: 50px;
+    background-color: #2D2640;
+    margin: 60px 0px;
+}
+.final-section .process a{
+    border: 1px solid #d3d3f5;
+    padding: 7px ;
+    border-radius: 5px;
+    font-size: 24px;
+    color: white;
+    text-decoration: none;
+}
+.final-section .last-line hr{
+width: 100%;
+   
+
+}
+
+/* Footer */
+
+.footer nav a{
+    margin: 20px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 20px;
+    color: #74747a;
+    
+}
+.footer nav{
+    padding: 20px 0px;
+}
+
+.footer {
+    text-align: center;
+}
+
+.footer small{
+    background-color:#2D2640 ;
+   display: block;
+   font-size: 20px;
+   padding: 20px;
+   color: #898997;
+}
