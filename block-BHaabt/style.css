@@ -71,6 +71,7 @@ box-sizing: border-box;
 .container{
     max-width: 1200px;
     margin: 0px auto;
+    padding: 16px 0;
     
 }
 .flex{
@@ -82,20 +83,22 @@ box-sizing: border-box;
 
 
 .header h1{
-    color: 2D2640;
-    font-size: 28px;
+    color: #2D2640;
+    font-size: 40px;
 }
 .header nav a{
     color: #88858C;
-    font-size: 16px;
+    font-size: 20px;
+    font-weight: 600;
     text-decoration: none;
-    margin-right: 15px;
+    margin-left: 24px;
      text-transform: uppercase;
 }
 .header .active{
     border: 1px solid #88858c;
-    padding: 7px;
+    padding: 12px;
     border-radius: 5px;
+    margin-left: 36px;
 }
 /* Article-section */
 
@@ -237,10 +240,11 @@ width: 100%;
 /* Footer */
 
 .footer nav a{
-    margin-left: 20px;
+    margin: 20px;
     text-align: center;
     text-decoration: none;
-    color: #57575f;
+    font-size: 20px;
+    color: #74747a;
     
 }
 .footer nav{
@@ -254,6 +258,7 @@ width: 100%;
 .footer small{
     background-color:#2D2640 ;
    display: block;
+   font-size: 20px;
    padding: 20px;
-   color: #CECECF;
+   color: #898997;
 }
